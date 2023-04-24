@@ -1,0 +1,121 @@
+.container {
+  background-image: url("./bg.png");
+  background-size: cover;
+  height: 40rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 0 0 20% 20%;
+  gap: 10rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1.5rem;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 3rem;
+}
+
+.anchor-item {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.anchor-item:hover,
+.anchor-item:active {
+  color: var(--orange);
+}
+
+.end-nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.name {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 40px;
+  left: 1.5rem;
+}
+
+.dot {
+  color: var(--orange);
+}
+
+.nav-btn {
+  border-radius: 20px;
+  width: 5rem;
+  height: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+}
+.login {
+  background-color: white;
+}
+
+.login-text {
+  color: var(--green);
+  font-weight: 600;
+}
+
+.try {
+  padding-left: 1.3rem;
+  background-color: var(--orange);
+}
+
+.try-text {
+  color: white;
+  font-weight: 600;
+}
+
+.heading1 {
+  margin-left: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  font-size: 65px;
+}
+
+.heading2 {
+  margin-left: 8rem;
+  font-size: 65px;
+  color: white;
+  width: 60rem;
+}
+.heading {
+  color: #327982;
+  text-align: center;
+  margin: 5rem 0 2rem;
+  font-size: 3rem;
+}
+.grid1 {
+  display: flex;
+  flex-direction: column;
+}
+.row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 4rem;
+}
+.head1 {
+  color: #327982;
+  margin-bottom: 1rem;
+}
+.contents1 {
+  width: 20rem;
+  padding: 2rem 0;
+  color: #00000082;
+  font-weight: 500;
+}

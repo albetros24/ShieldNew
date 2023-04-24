@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --orange: rgba(245, 160, 140, 1);
+  --green: rgba(50, 121, 130, 1);
+}

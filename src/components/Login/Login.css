@@ -1,0 +1,133 @@
+.login-container {
+  background: url("./bg.png");
+  background-size: cover;
+  height: 45rem;
+  display: flex;
+  gap: 4rem;
+  overflow: hidden;
+}
+.name {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 40px;
+  left: 1.5rem;
+}
+
+.dot {
+  color: var(--orange);
+}
+
+.login-left {
+  margin-left: 8rem;
+  margin-top: 4rem;
+}
+
+.pt-1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 67px;
+  color: white;
+  font-weight: bold;
+  width: 40rem;
+  position: relative;
+  margin-top: 7rem;
+  /* line-height: 1.3; */
+  /* letter-spacing: 2px; */
+}
+.dot {
+  color: var(--orange);
+}
+
+.login-right {
+  position: relative;
+  background-color: white;
+  height: 45rem;
+  width: 50%;
+  left: 8rem;
+  border-radius: 100px 0 0 100px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-right-container {
+  margin-left: 5rem;
+  margin-top: 5rem;
+}
+
+.login-heading {
+  color: var(--orange);
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  margin-bottom: 2.5rem;
+}
+
+.login-subtext {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin-bottom: 2.5rem;
+}
+
+.signup-text {
+  color: var(--green);
+  text-decoration: none;
+}
+.fieldset {
+  width: 25rem;
+  height: 4rem;
+  border: 4px solid rgba(50, 121, 130, 1);
+  border-radius: 20px;
+  margin-bottom: 2rem;
+}
+legend {
+  color: rgba(50, 121, 130, 1);
+  padding: 5px;
+  /* position: relative;
+  left: 2rem; */
+  margin-left: 1.5rem;
+}
+.fieldset-input {
+  position: relative;
+  top: -0.4rem;
+  margin-left: 1rem;
+  height: 2rem;
+  /* margin-top: -2rem; */
+  outline: none;
+  border: none;
+  font-size: 20px;
+  width: 23rem;
+}
+.signin-button {
+  margin-top: 3rem;
+  width: 25rem;
+  height: 3.5rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--orange);
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+.signin-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: white;
+}
+.aux-text {
+  font-weight: 500;
+  margin-left: 9.5rem;
+}
+
+.icons-login {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  /* justify-content: center; */
+  margin-left: 8.5rem;
+}
+.google-login,
+.facebook-login {
+  cursor: pointer;
+}
